@@ -1,6 +1,6 @@
 # STARTINGPOINT1
 
-* 중복을 피한 개발 "STARTINGPOINT"
+* 중복을 피한 개발 "STARTINGPOINT"123
 
 ## INFO
 
