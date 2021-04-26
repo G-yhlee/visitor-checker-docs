@@ -1,17 +1,16 @@
-# 일렉트론-설치하기
+# Client to DataBase
 ```erlang
-Manual Guide of 일렉트론-설치하기
+Manual Guide of Client to DataBase
 
-Command 1 : 깃-시작하기 
-g0 electron-app
-Command 2 : 일렉트론-설치하기
-npm init -y
-npm i --save--dev electron electron-reload
-
-INFO: 설치된 내용을 살펴보면 다음과 같다.
-
-일렉트론 설치
-npm i --save--dev electron electron-reload
-
-=> 일렉트론 관련 라이브러리를 설치한다
+INFO : 클라이언트에서 데이터 베이스 서버로 보내는 JSON api 포맷입니다.
+클라이언트에서 데이터 베이스로 요청을 보내면, 필요한 정보를 받아
+사용자 통계정보, 출퇴근 기록 조회 등의 작업을 할 수 있게 됩니다.
+현재 데이터 베이스 api는 구축중입니다.
 ```
+## Client to DataBase JSON format
+```json
+{
+  "none": "..."
+}
+```
+
