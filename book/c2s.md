@@ -13,8 +13,6 @@ INFO : 클라이언트에서 서버로 보내는 JSON api 포맷입니다.
     "input": {
         "items": [
             {
-                "client_id": "testing_client_001",
-                "src": "0",
                 "frames": [
                     "Base64EncodedString_frame_no1",
                     "Base64EncodedString_frame_no2",
@@ -22,6 +20,8 @@ INFO : 클라이언트에서 서버로 보내는 JSON api 포맷입니다.
                     ...
                     "Base64EncodedString_frame_no20",
                 ],
+                "client_id": "testing_client_001",
+                "src": "0",
                 "edge_filter": "1",
                 "eye_dist2min_size_ratio": "0.35",
                 "yaw_thresh": [
