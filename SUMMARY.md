@@ -2,23 +2,16 @@
 
 * [VisitorChecker](README.md)
 
-## Client to Server
+## Client
+* [Client to Server](c2s.md)
+* [Client to Database](c2d.md)
 
-* [c2s](c2s.md)
+## Server
 
-## Client to Database
+* [Server to Client](s2c.md)
+* [Server to Database](s2d.md)
 
-* [c2d](c2d.md)
+## DataBase
 
-## Server to Client
-
-* [s2c](git/start.md)
-
-## Server to Database
-
-* [s2d](js/electronjs/1.3.build.multi-window-app.md)
-
-## others
-
-* [camera](js/reactjs/start.md)
-* [시작하기](js/rxjs/start.md)
+* [Database to Client](d2c.md)
+* [Database to Server](d2s.md)
