@@ -1,5 +1,3 @@
-# c2d
-
 # 일렉트론-설치하기
 ```erlang
 Manual Guide of 일렉트론-설치하기
