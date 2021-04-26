@@ -1,6 +1,6 @@
-# STARTINGPOINT1
+# visitor checker api docs
 
-* 중복을 피한 개발 "STARTINGPOINT"123
+* visitor checker api docs for development.
 
 ## INFO
 
