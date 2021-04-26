@@ -3,6 +3,5 @@
 * visitor checker api docs for development.
 
 ## INFO
-
-Github: [https://github.com/G-yhlee/STARTINGPOINT](https://github.com/G-yhlee/STARTINGPOINT)  
-Gitbook: [https://g-yhlee.gitbook.io/startingpoint/](https://g-yhlee.gitbook.io/startingpoint/)
+Github: [https://github.com/G-yhlee/visitor-checker-docs](https://github.com/G-yhlee/visitor-checker-docs)  
+Gitbook: [https://g-yhlee.gitbook.io/visitor-checker/](https://g-yhlee.gitbook.io/visitor-checker/)

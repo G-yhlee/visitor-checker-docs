@@ -1,6 +1,6 @@
 # Table of contents..
 
-* [STARTINGPOINT](README.md)
+* [VisitorChecker](README.md)
 
 ## INFO
 
