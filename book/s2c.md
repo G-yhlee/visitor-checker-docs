@@ -133,47 +133,47 @@ INFO : 등록된 사용자(Known) 등록되지 않은 사용자(Unknown) 의 경
 }
 ```
 
-<table style="height: 300px;" width="424">
+<table >
 <tr>
-<td style="width: 139px;"><strong>NAME</strong></td>
-<td style="width: 139px;"><strong>TYPE</strong></td>
-<td style="width: 750px;"><strong>DESCRIPTION</strong></td>
+<td><strong>NAME</strong></td>
+<td><strong>TYPE</strong></td>
+<td><strong>DESCRIPTION</strong></td>
 </tr>
 <tr>
-<td style="width: 139px;">name</td>
-<td style="width: 139px;">string</td>
+<td>name</td>
+<td>string</td>
 <td style="width: 750px;">Visitor ‘s name or auto-generated id</td>
 </tr>
 <tr>
-<td style="width: 139px;">img</td>
-<td style="width: 139px;">string</td>
-<td style="width: 750px;">Sample face with size = 160 x 160, which is encoded to string using base64 encoding method</td>
+<td>img</td>
+<td>string</td>
+<td>Sample face with size = 160 x 160, which is encoded to string using base64 encoding method</td>
 </tr>
 <tr>
-<td style="width: 139px;">bboxes</td>
-<td style="width: 139px;">list of string</td>
-<td style="width: 750px;">List of information of processed bounding box on visitor ‘s face. frame_id is the index of frame within N frames received from client, start from 0 to N-1.</td>
+<td>bboxes</td>
+<td>list of string</td>
+<td>List of information of processed bounding box on visitor ‘s face. frame_id is the index of frame within N frames received from client, start from 0 to N-1.</td>
 </tr>
 <tr>
-<td style="width: 139px;">prob</td>
-<td style="width: 139px;">string</td>
-<td style="width: 750px;">Probability of prediction. Value is float between 0 and 1.</td>
+<td>prob</td>
+<td>string</td>
+<td>Probability of prediction. Value is float between 0 and 1.</td>
 </tr>
 <tr>
-<td style="width: 139px;">visit_times</td>
-<td style="width: 139px;">string</td>
-<td style="width: 750px;">Number of visit times today and number of visit times this week, separated by one space-unit</td>
+<td>visit_times</td>
+<td>string</td>
+<td>Number of visit times today and number of visit times this week, separated by one space-unit</td>
 </tr>
 <tr>
-<td style="width: 139px;">last_visit</td>
-<td style="width: 139px;">string</td>
-<td style="width: 750px;">Human-readable description for last visit timestamp with detail timestamp, separated by “_”</td>
+<td>last_visit</td>
+<td>string</td>
+<td>Human-readable description for last visit timestamp with detail timestamp, separated by “_”</td>
 </tr>
 </table>
 
 
-<img src="Facial_bbox.jpg" alt="Detected face with bounding box" style="width:400px;" class="center">
-<head>
+<!-- <img src="Facial_bbox.jpg" alt="Detected face with bounding box" style="width:400px;" class="center"> -->
+<!-- <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 img {
@@ -182,4 +182,4 @@ img {
   margin-right: auto;
 }
 </style>
-</head>
+</head> -->
