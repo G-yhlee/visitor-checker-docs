@@ -97,3 +97,89 @@ INFO : 서버에서 클라이언트로 보내는 JSON api 포맷입니다.
 
 
 
+
+## Known/Unknown Visitor JSON sample
+
+```erlang
+Manual Guide of Known/Unknown Visitor JSON Format
+
+INFO : 등록된 사용자(Known) 등록되지 않은 사용자(Unknown) 의 경우 각각의 Json data 포맷은 다음과 같습니다. 등록되지 않은 사용자의 경우, 자동생성된 아이디로 구분짓습니다.
+
+```
+
+
+```js
+{
+    "name": "Pham_Tung_Lam",
+    "bboxes":[
+        "x1 y1 x2 y2 frame_id"
+    ],
+    "prob": "0.89"
+    "img": "Base64EncodedString",
+    "visit_times": "2 17",
+    "last_visit": "5 hours ago_20210318-155328"
+}
+```
+```js
+{
+    "name": "visitor_001_M",
+    "bboxes":[
+        "x1 y1 x2 y2 frame_id"
+    ],
+    "prob": "0.93",
+    "img": "Base64EncodedString",
+    "visit_times": "2 17",
+    "last_visit": "5 hours ago_20210318-155328" 
+}
+```
+
+<table style="height: 300px;" width="424">
+<tr>
+<td style="width: 139px;"><strong>NAME</strong></td>
+<td style="width: 139px;"><strong>TYPE</strong></td>
+<td style="width: 750px;"><strong>DESCRIPTION</strong></td>
+</tr>
+<tr>
+<td style="width: 139px;">name</td>
+<td style="width: 139px;">string</td>
+<td style="width: 750px;">Visitor ‘s name or auto-generated id</td>
+</tr>
+<tr>
+<td style="width: 139px;">img</td>
+<td style="width: 139px;">string</td>
+<td style="width: 750px;">Sample face with size = 160 x 160, which is encoded to string using base64 encoding method</td>
+</tr>
+<tr>
+<td style="width: 139px;">bboxes</td>
+<td style="width: 139px;">list of string</td>
+<td style="width: 750px;">List of information of processed bounding box on visitor ‘s face. frame_id is the index of frame within N frames received from client, start from 0 to N-1.</td>
+</tr>
+<tr>
+<td style="width: 139px;">prob</td>
+<td style="width: 139px;">string</td>
+<td style="width: 750px;">Probability of prediction. Value is float between 0 and 1.</td>
+</tr>
+<tr>
+<td style="width: 139px;">visit_times</td>
+<td style="width: 139px;">string</td>
+<td style="width: 750px;">Number of visit times today and number of visit times this week, separated by one space-unit</td>
+</tr>
+<tr>
+<td style="width: 139px;">last_visit</td>
+<td style="width: 139px;">string</td>
+<td style="width: 750px;">Human-readable description for last visit timestamp with detail timestamp, separated by “_”</td>
+</tr>
+</table>
+
+
+<img src="Facial_bbox.jpg" alt="Detected face with bounding box" style="width:400px;" class="center">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
