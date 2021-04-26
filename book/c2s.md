@@ -2,9 +2,10 @@
 ```erlang
 Manual Guide of Client to Server
 
+INFO : 클라이언트에서 서버로 보내는 JSON api 포맷입니다.
+클라이언트에서 3초당 20장의 img data를 수집하여 서버에 전송합니다.
+여기서 사진 정보는 frames에 배열형태로 담아서 보내게 됩니다.
 ```
-
-
 ## Client to Server JSON format
 ```json
 {
