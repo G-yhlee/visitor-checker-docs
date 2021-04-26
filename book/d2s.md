@@ -1,17 +1,13 @@
-# 일렉트론-설치하기
+# DataBase to Server
 ```erlang
-Manual Guide of 일렉트론-설치하기
+Manual Guide of DataBase to Server
 
-Command 1 : 깃-시작하기 
-g0 electron-app
-Command 2 : 일렉트론-설치하기
-npm init -y
-npm i --save--dev electron electron-reload
-
-INFO: 설치된 내용을 살펴보면 다음과 같다.
-
-일렉트론 설치
-npm i --save--dev electron electron-reload
-
-=> 일렉트론 관련 라이브러리를 설치한다
+INFO : 데이터베이스에서 서버의 요청에 따라 필요한 정보를 제공해 줍니다. (...작성 대기 중 ...)
 ```
+## DataBase to Server JSON format
+```json
+{
+  "none": "..."
+}
+```
+
