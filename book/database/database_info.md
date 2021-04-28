@@ -5,8 +5,8 @@ Manual Guide of DataBase Info
 
 Info: connecting to MariaDB
 {
-    "user": 'root',
-    "password": 'gridone',
+    "user": "root",
+    "password": "gridone",
     "host": "docker.gridone.net"
     "port": 3306,
     "database": "visitorChecker"
