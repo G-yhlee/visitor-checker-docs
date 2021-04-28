@@ -11,13 +11,16 @@ Info: connecting to MariaDB
     "port": 3306,
     "database": "visitorChecker"
 }
+
+Info_temp:
+{ "client_id" : "new_test_v1" }
 ```
 
 
 #### Unknown Visitor DataTable information - [client_id]_uvdb
 <table>
 <tr>
-<td>KEY NAME</td>
+<td>KEY</td>
 <td>DATA TYPE</td>
 <td>DESCRIPTION</td>
 </tr>

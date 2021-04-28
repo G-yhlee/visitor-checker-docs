@@ -9,18 +9,12 @@ INFO : 클라이언트에서 서버로 보내는 JSON api 포맷입니다.
 ## Client to Server JSON format
 ```json
 {
-    "reqid": "40137",
+    "reqid": "gridonesurveillance",
     "input": {
         "items": [
             {
-                "frames": [
-                    "Base64EncodedString_frame_no1",
-                    "Base64EncodedString_frame_no2",
-                    "Base64EncodedString_frame_no3",
-                    ...
-                    "Base64EncodedString_frame_no20",
-                ],
-                "client_id": "testing_client_001",
+                "frames": [],
+                "client_id": "new_test_v1",
                 "src": "0",
                 "edge_filter": "1",
                 "eye_dist2min_size_ratio": "0.35",
@@ -32,14 +26,14 @@ INFO : 클라이언트에서 서버로 보내는 JSON api 포맷입니다.
                     "-15",
                     "15"
                 ],
-                "clustering_thresh": "0.95",
                 "known_people_conf_thresh": "0.75",
                 "unknown_people_conf_thresh": "0.8",
                 "visit_cnt_gap": [
                     "0",
                     "0",
                     "15"
-                ]
+                ],
+                "clustering_thresh": "0.95"
             }
         ]
     }
