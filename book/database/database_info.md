@@ -13,11 +13,13 @@ Info: connecting to MariaDB
 }
 
 Info_temp:
-{ "client_id" : "new_test_v1" }
+"[client_id]_uvdb" :  "" 
+"[client_id]_summary" : "" 
+"[client_id]_kv_manual" : "" 
 ```
 
 
-#### Unknown Visitor DataTable information - [client_id]_uvdb
+#### Unknown Visitor DataTable :: [client_id]_uvdb
 <table>
 <tr>
 <td>KEY</td>
@@ -51,10 +53,10 @@ Info_temp:
 </tr>
 </table>
 
-#### Unknown Visitor DataTable information - [client_id]_summary
+#### Unknown Visitor DataTable :: [client_id]_summary
 <table>
 <tr>
-<td>KEY NAME</td>
+<td>KEY</td>
 <td>DATA TYPE</td>
 <td>DESCRIPTION</td>
 </tr>
