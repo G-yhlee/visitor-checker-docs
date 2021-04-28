@@ -13,6 +13,11 @@
 
 ## DataBase
 
-* [Database info](book/database/database_info.md)
-* [Database to Client](book/database/d2c.md)
+* [How to Connect to Database](book/database/info.md)
+* [Database to Server](book/database/d2s.md)
+* [Database to Server](book/database/d2s.md)
+* [Database to Server](book/database/d2s.md)
+* [Database to Server](book/database/d2s.md)
+* [Database to Server](book/database/d2s.md)
+* [Database to Server](book/database/d2s.md)
 * [Database to Server](book/database/d2s.md)
