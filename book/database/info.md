@@ -3,7 +3,7 @@
 ```js
 {
     "user": "root",
-    "password": "gridone",
+    "password": "*gridone*",
     "host": "docker.gridone.net"
     "port": 3306,
     "database": "visitorChecker"

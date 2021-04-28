@@ -18,8 +18,6 @@ SELECT DISTINCT(visitor_id) FROM new_test_v1_uvdb WHERE visitor_id LIKE '%_M'
 
 ```
 
-
-
 ```js
 // sudo code ... dont need to read this 
 // {visitor_id, img_str, timestamp} = new_test_v1_uvdb.{visitor_id ~ '%_M' }
