@@ -38,10 +38,3 @@ async function asyncFunction() {
 asyncFunction()
 ```
 
-<!-- ```js
-const col = ["visitor_id" , "timestamp" , "img_str" ]
-const db = ["new_test_v1_uvdb"]
-const where = ["visitor_id" ]
-const like = { masked: "%_M" }
-const order = [ "timestamp ASC" ]
-``` -->

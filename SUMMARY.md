@@ -12,12 +12,7 @@
 * [Server to Database](book/server/s2d.md)
 
 ## DataBase
-
-* [How to Connect to Database](book/database/info.md)
-* [Database to Server](book/database/d2s.md)
-* [Database to Server](book/database/d2s.md)
-* [Database to Server](book/database/d2s.md)
-* [Database to Server](book/database/d2s.md)
-* [Database to Server](book/database/d2s.md)
-* [Database to Server](book/database/d2s.md)
-* [Database to Server](book/database/d2s.md)
+* [info](book/database/database_table_info.md)
+* [How to Connect to Database](book/database/how_to_connect_to_database.md)
+* [How to get data from Database](book/database/how_to_get_data_from_database.md)
+* [How to get visit_times](book/database/how_to_get_visit_times.md)
