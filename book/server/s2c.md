@@ -3,9 +3,7 @@
 ```erlang
 Manual Guide of Server to Client
 
-INFO : 서버에서 클라이언트로 보내는 JSON api 포맷입니다.
-등록된 사용자의 경우 known_samples 에 값이 담겨져 전송되고,
-등록되지 않은 사용자의 경우, stranger_samples에 값이 담겨져 전송됩니다.
+INFO : ...
 
 ```
 

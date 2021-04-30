@@ -2,11 +2,11 @@
 ## connect info
 ```js
 {
-    "user": "userName",
-    "password": "password123",
-    "host": "docker.someName.net"
+    "user": "root",
+    "password": "*gridone*",
+    "host": "docker.gridone.net"
     "port": 3306,
-    "database": "databaseName"
+    "database": "visitorChecker"
 }
 ```
 
@@ -14,11 +14,11 @@
 ```js
 import mariadb from 'mariadb';
 const pool = mariadb.createPool({
-  "user": 'userName',
-  "password": 'password123',
-  "host": "docker.someName.net",
+  "user": 'root',
+  "password": 'gridone',
+  "host": "docker.gridone.net",
   "port": 3306,
-  "database": "databaseName",
+  "database": "visitorChecker",
   connectionLimit: 5
 });
 
