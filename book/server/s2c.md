@@ -140,7 +140,7 @@ INFO : 등록된 사용자(Known) 등록되지 않은 사용자(Unknown) 의 경
 <tr>
 <td>name</td>
 <td>string</td>
-<td style="width: 750px;">Visitor ‘s name or auto-generated id</td>
+<td >Visitor ‘s name or auto-generated id</td>
 </tr>
 <tr>
 <td>img</td>
@@ -170,14 +170,4 @@ INFO : 등록된 사용자(Known) 등록되지 않은 사용자(Unknown) 의 경
 </table>
 
 
-<!-- <img src="Facial_bbox.jpg" alt="Detected face with bounding box" style="width:400px;" class="center"> -->
-<!-- <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-</head> -->
+<img src="Facial_bbox.jpg" alt="Detected face with bounding box" >
