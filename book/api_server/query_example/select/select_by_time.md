@@ -1,4 +1,4 @@
-#### C2D ::  select by time
+#### C2D :: select by time
 ```js
 {
     "reqid": "gridonesurveillance",
