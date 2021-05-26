@@ -19,5 +19,5 @@
 
 ## api_server
 * [api server summary](book/api_server/summary_info.md)
-* [select example_get_no_mask](book/api_server/query_examle/select/get_no_mask.md)
-* [select example_time_condition](book/api_server/query_examle/select/time_condition.md)
+* [select example_get_no_mask](book/api_server/query_example/select/get_no_mask.md)
+* [select example_time_condition](book/api_server/query_example/select/time_condition.md)
