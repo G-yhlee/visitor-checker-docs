@@ -8,7 +8,7 @@ lastupdate:: 21/05/26
 `query_type` `keys` FROM `table_name` WHERE `conditions`
 ```
 
-#### summary infomation
+#### summary
 ```js
 table_name = {
    "[client_id]_uvdb": " All information collected " ,
