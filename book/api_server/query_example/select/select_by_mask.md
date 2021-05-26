@@ -1,4 +1,4 @@
-#### C2D :: no mask
+#### C2D :: select by mask
 ```js
 {
     "reqid": "gridonesurveillance",
@@ -38,7 +38,7 @@
 }
 ```
 
-#### D2C :: Sample Database Request API Server to Client JSON
+#### D2C :: select by mask
 ```js
 {
     "result": 0,
